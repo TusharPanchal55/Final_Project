@@ -1,0 +1,143 @@
+body{
+    margin : 10px;
+}
+.maindiv{
+    float : right;
+    height : 770px;
+    width : 100%;
+    background-color: #14213D;
+}
+table {
+    overflow : hidden;
+    background-color : #FCA311;
+    text-align : center;
+}
+td a
+{
+    text-decoration : none;
+    color : black;
+    font-size: 20px;
+}
+tr :hover
+{
+    background-color : white;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* img 1 */
+.div3{
+    background-color: #FCA311;
+    height : 300px;
+    width : 260px;
+    margin-top : 120px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius : 15px;  
+    float : left;
+}
+.img1{
+    margin-top : 10px;
+    margin-left : 10px;
+    height : 240px;
+    width : 240px;
+    } 
+.div3:hover{
+    box-shadow: 2px 5px 5px 5px white;
+    background-color: lightseagreen;
+} 
+/* img 2 */
+.div4{
+    background-color: #FCA311;
+    height : 300px;
+    width : 260px;
+    margin-top : 120px;
+    margin-left : 70px;
+    padding: 20px;
+    border-radius : 15px;  
+    float: left;
+}
+.img2{
+    margin-top : 10px;
+    margin-left : 10px;
+    height : 240px;
+    width : 240px;
+} 
+.div4:hover{
+    box-shadow: 2px 5px 5px 5px white;
+    background-color: lightseagreen;
+} 
+/* img 3 */
+.div5{
+    background-color: #FCA311;
+    height : 300px;
+    width : 260px;
+    margin-top : 120px;
+    margin-left : 70px;
+    padding: 20px;
+    border-radius : 15px;  
+    float: left;
+}
+.img3{
+    margin-top : 10px;
+    margin-left : 10px;
+    height : 240px;
+    width : 240px;
+} 
+.div5:hover{
+    box-shadow: 2px 5px 5px 5px white;
+    background-color: lightseagreen;
+}
+/* img 4 */
+.div6{
+    background-color: #FCA311;
+    height : 300px;
+    width : 260px;
+    margin-top : 120px;
+    margin-left : 70px;
+    padding: 20px;
+    border-radius : 15px;  
+    float: left;
+}
+.img4{
+    margin-top : 10px;
+    margin-left : 10px;
+    height : 240px;
+    width : 240px;
+} 
+.div6:hover{
+    box-shadow: 2px 5px 5px 5px white;
+    background-color: lightseagreen;
+}
+
+h1{
+    text-shadow : 7px 7px 4px black; 
+    text-align :center; 
+    font-size: 45px;
+    color : white;
+}
+.btn{
+    margin-top: 50px;
+    width : 150px;
+    height : 40px;
+    margin-left: 675px;
+    border-radius: 15px;
+}
+.btn:hover{
+    box-shadow: 8px 11px 5px black;
+}
+.inputbox{
+    width : 400px;   
+    height : 20px;
+}
+.search{
+    height :30px;
+    margin-left: 10px;
+}
+.cart{
+    margin-left : 400px;
+    height : 40px;
+    width : 80px;
+    font-size: 20px;
+    text-align: center;
+}

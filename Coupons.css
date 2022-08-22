@@ -1,0 +1,37 @@
+.div1{
+    margin-top: 100px;
+    margin-left : 450px;
+    height : 200px;
+    width : 600px;
+    box-shadow : 5px 5px 8px 7px black;
+    border : 2px solid black;
+}
+
+.upperdiv{
+    background-color: rgb(212, 7, 7);
+    color : white;
+    height : 80px;
+    font-size: 30px;
+}
+
+h1{
+    align-self: center;
+    margin-left: 565px;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px black;
+    color : black;
+}
+
+button{
+    height : 40px;
+    width : 80px;
+    margin-top : 40px;
+    margin-left: 270px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    height :30px;
+    width : 70px;
+}

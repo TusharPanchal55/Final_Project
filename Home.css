@@ -1,0 +1,84 @@
+body{
+    background-image : url(images/background1.jpg);
+    background-size: 100%;    
+    background-repeat: no-repeat;
+}
+
+table{
+    height : 500px;
+    width : 150px;
+    border: 5px solid black;
+    margin-bottom: 200px;
+    float: left;
+}
+
+h1{
+    align-self: center;
+    margin-left: 665px;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px black;
+    color : black;
+}
+
+tr td:hover{
+    background-color: white;
+}
+
+td{
+    font-size : 22px;
+}
+
+td:hover
+{
+    text-shadow: 2px 5px 5px black;
+}
+.outerbox
+{    
+    
+     float: right;
+     margin-right: 180px;
+     z-index : -1;
+     width : 1000px;
+     height : 500px;
+     overflow : hidden;
+}
+.main{
+     background-color: pink;
+     margin-right: 0px;
+}
+.sliderbox
+{
+position : relative;
+width : 1500px;
+animation : slide 10s infinite;
+}
+
+.slideimg
+{
+float : left;
+}
+
+@keyframes slide
+
+{
+0%
+      {
+            left:  0px;
+      }
+40%
+      {
+           left:  0px;
+      }
+50%
+     {
+          left:  -500px;
+     }
+90%
+     {
+          left:  -500px;
+     }
+100%
+     {
+          left:  -1000px;
+     }
+}  
